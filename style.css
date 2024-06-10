@@ -1512,3 +1512,28 @@ color: orange;
     background-color: orange;
 }
 /* get qoutation end */
+
+/* project page start */
+.project-bg{
+    background: linear-gradient(rgb(12, 12, 12,0.6),rgb(17, 16, 16,0.6)),url(img/project_bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-bg h1{
+    font-size: 100px;
+    font-family: serif;
+    font-weight: 900;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.project-page{
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* project page end */
