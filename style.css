@@ -898,6 +898,17 @@ padding-top: 10px;
     padding-bottom: 150px;
     text-align: center;
 }
+@media (max-width:576px) {
+    .about-bg h1{
+        font-size: 50px;
+        font-family: serif;
+        font-weight: 900;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+}
 /* about-bg end */
 
 /* project started today start*/
@@ -1054,6 +1065,17 @@ padding-top: 10px;
     padding-bottom: 150px;
     text-align: center;
 }
+@media (max-width:576px) {
+    .service-bg h1{
+        font-size: 50px;
+        font-family: serif;
+        font-weight: 900;
+        color: white;
+        padding-top: 50px;
+        padding-bottom:50px;
+        text-align: center;
+    }
+}
 /* background end */
 
 /* service .testimonial start */
@@ -1176,3 +1198,227 @@ padding-top: 10px;
 /* recycling item end */
 
 /* .service page end */
+
+/* Ecofix Team Page start */
+.team-bg{
+    background: linear-gradient(rgb(12, 12, 12,0.6),rgb(17, 16, 16,0.6)),url(img/team_bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-bg h1{
+    font-size: 100px;
+    font-family: serif;
+    font-weight: 900;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+@media (max-width:576px) {
+    .team-bg h1{
+        font-size: 50px;
+        font-family: serif;
+        font-weight: 900;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+}
+/* Ecofix Team Page end */
+
+/* faq page start */
+.faq-bg{
+    background: linear-gradient(rgb(12, 12, 12,0.6),rgb(17, 16, 16,0.6)),url(img/faq_bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.faq-bg h1{
+    font-size: 100px;
+    font-family: serif;
+    font-weight: 900;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+@media (max-width:576px) {
+    .faq-bg h1{
+        font-size: 50px;
+        font-family: serif;
+        font-weight: 900;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .faq .left h6{
+        text-align: center;
+        }
+        .faq .left h1{
+            text-align: center;
+            font-size: 30px;
+        }
+}
+/* faq-item start */
+.faq{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.faq .left h6{
+font-family: serif;
+font-weight: 900;
+color: orange;
+}
+.faq .left h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(1, 91, 1);
+}
+.faq .faq-item{
+    border: 1px solid rgb(213, 208, 208);
+    padding: 20px;
+    margin-top: 20px;
+}
+.faq-item.active {
+    box-shadow: 0 0 10px 4px rgba(22, 83, 238, 0.8);
+}
+
+.faq .faq-item a{
+    text-decoration: none;
+    font-family: serif;
+    color: rgb(26, 25, 25);
+}
+.faq .faq-item h4{
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(3, 98, 3);
+}
+.faq .faq-item i {
+    font-size: 25px;
+    margin-left: auto;
+    text-align: right;
+}
+.faq-item p {
+    display: none; /* Initially hide the paragraph */
+    font-family: serif;
+    padding-top: 10px;
+}
+
+.faq .card{
+    background-color: rgb(1, 62, 1);
+    color: white;
+    padding: 30px;
+}
+.faq .card h5{
+    font-family: serif;
+    font-weight: 900;
+}
+.faq .card .form-group{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: serif;
+}
+.faq .card .btn-light{
+    margin-top: 20px;
+    margin-left: 12px;
+    font-family: serif;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.faq .card .btn-light:hover{
+  background-color: orange;
+  color: white;
+}
+
+/* faq-item start */
+/* faq page end */
+
+/* pricing plans started */
+.pricing-bg{
+    background: linear-gradient(rgb(12, 12, 12,0.6),rgb(17, 16, 16,0.6)),url(img/breadcrumb\ \(1\).jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pricing-bg h1{
+    font-size: 100px;
+    font-family: serif;
+    font-weight: 900;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.pricing{
+    background-color: rgb(218, 214, 214);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pricing .card{
+    padding: 30px;
+    margin-top: 10px;
+}
+.pricing .card-header{
+    background-color: transparent;
+    border: none;
+}
+.pricing .card-header h4{
+    font-family: serif;
+    font-weight: bolder;
+    color: rgb(1, 112, 1);
+}
+.pricing .card-header h1{
+    padding-top: 10px;
+    color: rgb(4, 86, 4);
+    font-size: 50px;
+    font-weight: bolder;
+}
+.pricing .card-header i{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.pricing .card-header h6{
+    padding-top: 8px;
+    font-family: serif;
+    font-weight: bolder;
+    opacity: 0.7;
+}
+
+.pricing .card-body p{
+    font-family: serif;
+}
+
+.pricing .card-body i{
+    color: rgb(2, 95, 2);
+    font-weight: bolder;
+    padding-right: 20px;
+}
+.pricing .btn-success{
+    font-size: 14px;
+    font-family: serif;
+    padding: 15px;
+}
+.pricing .btn-success:hover{
+    background-color: orange;
+}
+@media (max-width:576px) {
+    .pricing-bg h1{
+        font-size: 50px;
+        font-family: serif;
+        font-weight: 900;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+}
+/* pricing plans end */
