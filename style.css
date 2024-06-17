@@ -897,6 +897,7 @@ padding-top: 10px;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
+    margin-bottom: 0;
 }
 @media (max-width:576px) {
     .about-bg h1{
@@ -1064,7 +1065,9 @@ padding-top: 10px;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
+    margin-bottom: 0;
 }
+
 @media (max-width:576px) {
     .service-bg h1{
         font-size: 50px;
@@ -1214,6 +1217,7 @@ padding-top: 10px;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 @media (max-width:576px) {
@@ -1244,6 +1248,7 @@ padding-top: 10px;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 @media (max-width:576px) {
@@ -1348,6 +1353,7 @@ color: orange;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .pricing-bg h1{
     font-size: 100px;
@@ -1357,6 +1363,7 @@ color: orange;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
+    margin-bottom: 0;
 }
 .pricing{
     background-color: rgb(218, 214, 214);
@@ -1438,6 +1445,7 @@ color: orange;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
+    margin-bottom: 0;
 }
 @media (max-width:576px) {
     .quotation-bg h1{
@@ -1528,6 +1536,7 @@ color: orange;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 @media (max-width:576px){
@@ -1649,6 +1658,7 @@ color: orange;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
+    margin-bottom: 0;
 }
 @media (max-width:576px){
     .blog-bg h1{
@@ -1695,6 +1705,7 @@ nav[aria-label="Page navigation example"] {
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 @media (max-width:576px) {
