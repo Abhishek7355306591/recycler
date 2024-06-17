@@ -962,6 +962,12 @@ padding-top: 10px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+@media (max-width:576px) {
+    .team{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }  
+}
 .team h6{
     font-family: serif;
     font-size: 25px;
@@ -1268,6 +1274,11 @@ padding-top: 10px;
             text-align: center;
             font-size: 30px;
         }
+
+        .faq{
+            padding-top: 30px !important;
+            padding-bottom: 20px !important;
+        }
 }
 /* faq-item start */
 .faq{
@@ -1427,6 +1438,10 @@ color: orange;
         padding-bottom: 50px;
         text-align: center;
     }
+    .pricing{
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
+    }
 }
 /* pricing plans end */
 
@@ -1456,6 +1471,10 @@ color: orange;
         padding-top: 50px;
         padding-bottom: 50px;
         text-align: center;
+    }
+    .quotation{
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
     }
 }
 
@@ -1545,6 +1564,10 @@ color: orange;
         padding-top: 50px;
         padding-bottom: 50px;
     }  
+    .project{
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
+    } 
 
 }
 
@@ -1715,8 +1738,8 @@ nav[aria-label="Page navigation example"] {
         padding-bottom: 50px;
     }
     .contact{
-        padding-top: 30px;
-        padding-bottom: 20px;
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
     }  
 }
 .contact .map-responsive {
