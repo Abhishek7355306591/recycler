@@ -1530,10 +1530,259 @@ color: orange;
     text-align: center;
 }
 
-.project-page{
+@media (max-width:576px){
+    .project-bg h1{
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }  
+
+}
+
+.project{
     background-color: whitesmoke;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.project .project-item .project-img {
+    position: relative;
+    overflow: hidden;
+}
 
+.project .project-item .project-img img {
+    transition: 0.5s;
+}
+
+.project .project-item:hover .project-img img {
+    transform: scale(1.2);
+}
+.project .item img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.project .project-content{
+    background-color: white;
+}
+.project .project-content h5{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 600;
+    color: orange;
+}
+.project .project-content h4{
+    padding-top: 10px;
+    font-size: 22px;
+    font-family: serif;
+    font-weight: bolder;
+    color: rgb(2, 75, 2);
+}
+.project .project-content p{
+    padding-top: 10px;
+    font-family: serif;
+    opacity: 0.8;
+}
+
+.project .project-content .btn{
+    font-family: serif;
+}
+
+.project .project-content .btn i{
+    padding-left: 10px;
+}
+
+/* Our Working Process start */
+.working{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.working h6{
+    font-family: serif;
+    color: orange;
+}
+.working h1{
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: serif;
+    font-weight: bolder;
+    color: rgb(3, 81, 3);
+}
+.working .working-img{
+    background-color: rgb(2, 75, 2);
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.working img{
+    height: 70px;
+    width: 70px;
+}
+.working h5{
+    font-family: serif;
+    font-weight: bolder;
+    padding-top: 30px;
+    color: rgb(2, 82, 2);
+}
+.working p{
+    padding: 20px;
+    font-family: serif;
+}
+
+/* Our Working Process end */
 /* project page end */
+
+/* blog page start */
+.blog-bg{
+    background: linear-gradient(rgb(12, 12, 12,0.6),rgb(17, 16, 16,0.6)),url(img/blog_bg\ \(1\).jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-bg h1{
+    font-size: 100px;
+    font-family: serif;
+    font-weight: 900;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+@media (max-width:576px){
+    .blog-bg h1{
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }   
+}
+nav[aria-label="Page navigation example"] {
+    margin-top: 50px;
+    
+  }
+
+  .pagination .page-item {
+    margin: 0 5px;
+  }
+  
+  .pagination .page-item .page-link{
+    color: black;
+    padding: 15px;
+  }
+  .pagination .page-item.active .page-link {
+    background-color: rgb(3, 93, 3);
+    color: white;
+  }
+  .pagination .page-item .page-link:hover{
+    background-color: rgb(3, 93, 3);
+    color: white;
+  }
+/* blog page end */
+
+/* contact page start */
+.contact-bg{
+    background: linear-gradient(rgb(12, 12, 12,0.6),rgb(17, 16, 16,0.6)),url(img/contact_bg\ \(2\).jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-bg h1{
+    font-size: 100px;
+    font-family: serif;
+    font-weight: 900;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+@media (max-width:576px) {
+    .contact-bg h1{
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .contact{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }  
+}
+.contact .map-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.contact .map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 400px;
+}
+.contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact .card{
+    background-color: rgb(2, 75, 2);
+    padding: 30px;
+    color: white;
+}
+.contact .card h3{
+    font-family: serif;
+}
+.contact .card i{
+    padding-top: 20px;
+    font-size: 25px;
+    color: orange;
+}
+.contact .card h5{
+    padding-top: 15px;
+    font-family: serif;
+    font-weight: bolder;
+}
+.contact .card p{
+    font-family: serif;
+}
+.contact .right{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.contact .right h6{
+    font-family: serif;
+    font-weight: bolder;
+    color: orange;
+}
+.contact .right h1{
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: serif;
+    font-weight: bolder;
+    color: rgb(2, 64, 2);
+}
+.contact .right p{
+    padding-top: 10px;
+    font-family: serif;
+    opacity: 0.8;
+}
+.contact .right input{
+    margin-top: 30px;
+    font-family: serif;
+}
+.contact .right textarea{
+    margin-top: 30px;
+    font-family: serif;
+}
+.contact .right .btn-success{
+    background-color: rgb(1, 50, 1);
+    font-family: serif;
+    padding: 10px;
+}
+.contact .right .btn-success:hover{
+    background-color: orange;
+}
+/* contact page end */

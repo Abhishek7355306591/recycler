@@ -3,159 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quotation Form</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .card {
-            margin-top: 20px;
-        }
-    </style>
+    <title>Recycling Popup</title>
 </head>
 <body>
-
-<div class="container-fluid quotation">
     <div class="container">
-        <div class="card">
-            <div class="card-header text-center">
-                <h2>Are you interested in a Quotation?</h2>
-                <p>Please Fill out form to request a quote or start service</p>
-            </div>
-            <div class="card-body">
-                <h4>Contact Information</h4>
-                <p>This information will be used to contact you</p>
-                <form action="#">
-                    <div class="form-row">
-                        <div class="form-group col-md-6 col-12">
-                            <label for="inputFirstName" class="sr-only">First Name</label>
-                            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
-                        </div>
-                        <div class="form-group col-md-6 col-12">
-                            <label for="inputLastName" class="sr-only">Last Name</label>
-                            <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6 col-12">
-                            <label for="inputEmail" class="sr-only">Email</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                        </div>
-                        <div class="form-group col-md-6 col-12">
-                            <label for="phone" class="sr-only">Phone</label>
-                            <input type="text" class="form-control" id="phone" placeholder="Phone">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6 col-12">
-                            <label for="inputEmail" class="sr-only">Company Name</label>
-                            <input type="text" class="form-control" id="companyname" placeholder="Company Name (if applicable)">
-                        </div>
-                        <div class="form-group col-md-6 col-12">
-                            <label for="companytype" class="sr-only">Company Type</label>
-                            <select id="companytype" class="form-control">
-                                <option selected>Select Company Type</option>
-                                <option>Commercial</option>
-                                <option>Industrial</option>
-                                <option>Apartment</option>
-                                <option>Hospital</option>
-                                <option>Retail Hotel</option>
-                            </select>
-                        </div>
-                    </div>
-                    <h4>Service Address</h4>
-                    <p>Where would you like us to pick up?</p>
-                    <div class="form-row">
-                        <div class="form-group col-md-4 col-12">
-                            <label for="Apartment" class="sr-only">Apartment</label>
-                            <input type="text" class="form-control" id="Apartment" placeholder="Apt/Suit#">
-                        </div>
-                        <div class="form-group col-md-8 col-12">
-                            <label for="Address" class="sr-only">Address</label>
-                            <input type="text" class="form-control" id="Address" placeholder="Address">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-4 col-12">
-                            <label for="Street" class="sr-only">Street</label>
-                            <input type="text" class="form-control" id="Street" placeholder="Street">
-                        </div>
-                        <div class="form-group col-md-4 col-12">
-                            <label for="City" class="sr-only">City</label>
-                            <input type="text" class="form-control" id="City" placeholder="City">
-                        </div>
-                        <div class="form-group col-md-4 col-12">
-                            <label for="Post Code" class="sr-only">Post Code</label>
-                            <input type="text" class="form-control" id="Post Code" placeholder="Post Code">
-                        </div>
-                    </div>
-                    <h4>Service Provide</h4>
-                    <p>What service do you like us to come?</p>
-                    <div class="form-row">
-                        <div class="form-group col-md-6 col-12">
-                            <label for="servicetype" class="sr-only">Service Type</label>
-                            <select id="servicetype" class="form-control">
-                                <option selected>Select Service Type</option>
-                                <option>Commercial</option>
-                                <option>Industrial</option>
-                                <option>Residential</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-6 col-12">
-                            <label for="Recyclingtype" class="sr-only">Recycling Type</label>
-                            <select id="Recyclingtype" class="form-control">
-                                <option selected>Select Recycling Type</option>
-                                <option>Paper Recycling</option>
-                                <option>Plastic Recycling</option>
-                                <option>Glass Recycling</option>
-                                <option>Aluminium Recycling</option>
-                                <option>Electronics Recycling</option>
-                                <option>Metal Recycling</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-12 col-12">
-                            <label for="inputMessage" class="sr-only">Message</label>
-                            <textarea class="form-control" id="inputMessage" rows="3" placeholder="Brief description of Waste/garbage to be recycled?"></textarea>
-                        </div>
-                    </div>
-                    <h4>Pickup Date & Time</h4>
-                    <p>When would you like us to come?</p>
-                    <div class="form-row">
-                        <div class="form-group col-md-8 col-12">
-                            <label for="date" class="sr-only">Date</label>
-                            <input type="date" class="form-control" id="date" placeholder="Date">
-                        </div>
-                        <div class="form-group col-md-4 col-12">
-                            <label for="Time" class="sr-only">Time</label>
-                            <input type="time" class="form-control" id="Time" placeholder="Time">
-                        </div>
-                    </div>
-                    <h4>How Often?</h4>
-                    <p>It's all about matching you with the perfect service for your choice.</p>
-                    <div class="form-row">
-                        <div class="form-group col-md-3 col-12">
-                            <a href="#" class="btn btn-outline-dark form-control">1 Time Service</a>
-                        </div>
-                        <div class="form-group col-md-3 col-12">
-                            <a href="#" class="btn btn-outline-dark form-control">Every Week</a>
-                        </div>
-                        <div class="form-group col-md-3 col-12">
-                            <a href="#" class="btn btn-outline-dark form-control">Every 2 Weeks</a>
-                        </div>
-                        <div class="form-group col-md-3 col-12">
-                            <a href="#" class="btn btn-outline-dark form-control">Every 4 Weeks</a>
-                        </div>
-                    </div>
-                    <a href="#" class="btn btn-success">SUBMIT</a>
-                </form>
+        <div class="col-md-3">
+            <div class="item">
+                <div class="working-img rounded-circle">
+                    <img src="img/recycling1.png" alt="" class="img-fluid" data-toggle="modal" data-target="#recyclingModal">
+                </div>
+                <h5>Recycling</h5>
+                <p>Recycling is the process of making used or unwanted products into new.</p>
             </div>
         </div>
     </div>
-</div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Modal -->
+    <div class="modal fade" id="recyclingModal" tabindex="-1" aria-labelledby="recyclingModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="recyclingModalLabel">Recycling Information</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Recycling is the process of making used or unwanted products into new. This helps reduce waste, conserve natural resources, and lower greenhouse gas emissions.</p>
+                    <p>By recycling, we can turn materials like paper, plastic, glass, and metal into new products, reducing the need to extract new raw materials from the earth.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
