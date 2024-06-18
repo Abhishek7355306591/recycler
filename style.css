@@ -107,21 +107,21 @@
         min-height: 400px;
     }
     .carosel h1{
-        font-size: 30px;
+        font-size: 20px;
         font-family: serif;
         font-weight: bolder;
-        padding-top: 10px;
+        padding-top: 5px;
     }
     .carosel p{
         font-family: serif;
         font-size: 15px;
-        padding-top: 10px;
+        padding-top: 5px;
     }
     .carosel .btn-success{
         font-family: serif;
         font-size: 16px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
         padding: 10px;
     }
   }
@@ -1864,14 +1864,7 @@ nav[aria-label="Page navigation example"] {
     font-family: serif;
     font-weight: bolder;
 }
-.paper .btn i{
-    display: none;
-}
-.paper .btn:hover i,
-.paper .btn:active i
-{
-display: inline;
-}
+
 .paper .card{
     margin-top: 20px;
     padding: 50px;
@@ -1914,6 +1907,10 @@ display: inline;
     text-decoration: none;
     color: white;
 } 
+.paper .right img{
+    width: 100%;
+    height: auto;
+}
 .paper .right h1{
     font-family: serif;
     padding-top: 30px;
